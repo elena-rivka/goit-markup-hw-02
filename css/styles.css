@@ -1,2 +1,6 @@
 
 /* цвет основного текста #212121 */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
