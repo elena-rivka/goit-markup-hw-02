@@ -1,6 +1,97 @@
 
-/* цвет основного текста #212121 */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --bg-dark: #2F303A;
+    --bg-bright: #F5F4FA;
+    --primary-white-color: #fff;
+}
 
 body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+/* Лого у шапці */
+
+.logo {
+    color: #000;
+    
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+/* Навігація */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.contact-nav .link {
+    color: var(--primary-text-color);
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* Герой */
+.hero-title {
+    color: var(--primary-white-color);
+}
+
+/* Кнопка */
+.button {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #188CE8;
+}
+
+/* Секції */
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Особливості */
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+/* Команда */
+.section-name {
+    color: var(--title-text-color);
+}
+
+/* Футтер */
+.footer-logo {
+    color: var(--primary-white-color);
+}
+.footer-address {
+    color: var(--primary-white-color);
+}
+.footer-contact {
+    color: rgba(255, 255, 255, 0.6);
 }
